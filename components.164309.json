@@ -1,0 +1,4764 @@
+{
+  "components": [
+    {
+      "name": "AllAuthors",
+      "display_name": "All Authors Swiper",
+      "created_at": "2023-03-07T03:08:10.826Z",
+      "updated_at": "2023-04-30T20:26:08.344Z",
+      "id": 3537008,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "all_link": {
+          "type": "multilink"
+        },
+        "all_label": {
+          "type": "text"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/d2cf74efb2/screenshot-2023-03-06-at-22-16-55.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "All Authors Swiper",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "AllAuthorsGrid",
+      "display_name": null,
+      "created_at": "2023-04-30T20:07:31.238Z",
+      "updated_at": "2023-04-30T20:08:45.093Z",
+      "id": 3910051,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/1322d5ce21/allauthorsgridpreview.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "AllAuthorsGrid",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Benefit",
+      "display_name": null,
+      "created_at": "2023-03-10T17:49:48.227Z",
+      "updated_at": "2023-03-10T17:55:05.283Z",
+      "id": 3560739,
+      "schema": {
+        "icon": {
+          "type": "asset",
+          "required": false,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 217742
+        },
+        "title": {
+          "type": "text"
+        },
+        "text": {
+          "type": "textarea"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/053ce11241/screenshot-2023-03-10-at-18-54-51.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Benefit",
+      "component_group_uuid": "df28ccfd-83c3-46ec-ab3d-3bf2792dfda6",
+      "color": "#1b243f",
+      "icon": "block-shield-2",
+      "component_group_name": "V2 Subcomponents"
+    },
+    {
+      "name": "Benefits",
+      "display_name": null,
+      "created_at": "2023-03-10T17:49:08.205Z",
+      "updated_at": "2023-03-10T17:54:29.424Z",
+      "id": 3560721,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "benefits": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Benefit"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/8560a69d7b/screenshot-2023-03-10-at-18-48-29.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Benefits",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-shield-2",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "ButtonLinkPoster",
+      "display_name": null,
+      "created_at": "2023-03-07T03:50:37.822Z",
+      "updated_at": "2023-05-03T12:11:09.891Z",
+      "id": 3537063,
+      "schema": {
+        "preheader": {
+          "type": "text",
+          "pos": 0
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 2
+        },
+        "image": {
+          "type": "asset",
+          "required": false,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215737,
+          "pos": 3
+        },
+        "pill": {
+          "type": "text",
+          "pos": 4
+        },
+        "pill_color": {
+          "type": "option",
+          "use_uuid": true,
+          "pos": 5,
+          "options": [
+            {
+              "_uid": "3e073a47-ae45-4b9b-9887-d972657dfc1c",
+              "name": "Black",
+              "value": "black"
+            },
+            {
+              "_uid": "e29eb073-0488-4672-b02a-ad4f7e8bfd44",
+              "value": "white",
+              "name": "White"
+            }
+          ],
+          "exclude_empty_option": true,
+          "required": true,
+          "default_value": "white"
+        },
+        "button_label": {
+          "type": "text",
+          "pos": 6
+        },
+        "button_link": {
+          "type": "multilink",
+          "pos": 7,
+          "link_scope": "{0}/"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/07e9b82682/screenshot-2023-03-06-at-22-50-50.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ButtonLinkPoster",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-monitor",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "BuyAOneTimeProduct",
+      "display_name": "Buy a One-time Product",
+      "created_at": "2022-11-06T20:59:22.034Z",
+      "updated_at": "2022-11-29T11:17:45.009Z",
+      "id": 3084974,
+      "schema": {
+        "physical_product_preample": {
+          "type": "richtext",
+          "pos": 0,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "h2",
+            "list",
+            "olist",
+            "link"
+          ],
+          "key": "physical_product_preample"
+        },
+        "first_name": {
+          "type": "text",
+          "pos": 1,
+          "description": "(shown, if product is physical)",
+          "required": true,
+          "key": "first_name"
+        },
+        "first_name_invalid": {
+          "type": "text",
+          "pos": 2,
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "key": "first_name_invalid"
+        },
+        "last_name": {
+          "type": "text",
+          "pos": 3,
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "key": "last_name"
+        },
+        "last_name_invalid": {
+          "type": "text",
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "pos": 4,
+          "key": "name_invalid"
+        },
+        "address_line1": {
+          "type": "text",
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "pos": 5,
+          "key": "address_line1"
+        },
+        "address_line1_invalid": {
+          "type": "text",
+          "description": "(shown, if product is physical)",
+          "required": true,
+          "pos": 6,
+          "key": "address_line1_invalid"
+        },
+        "postal_code": {
+          "type": "text",
+          "description": "(shown, if product is physical)",
+          "required": true,
+          "pos": 7,
+          "key": "postal_code"
+        },
+        "postal_code_invalid": {
+          "type": "text",
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "pos": 8,
+          "key": "postal_code_invalid"
+        },
+        "city": {
+          "type": "text",
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "pos": 9,
+          "key": "city"
+        },
+        "city_invalid": {
+          "type": "text",
+          "required": true,
+          "description": "(shown, if product is physical)",
+          "pos": 10,
+          "key": "city_invalid"
+        },
+        "title": {
+          "type": "richtext",
+          "pos": 11,
+          "required": false,
+          "customize_toolbar": true,
+          "toolbar": [
+            "h1"
+          ],
+          "key": "title"
+        },
+        "intro": {
+          "type": "textarea",
+          "pos": 12,
+          "required": false,
+          "key": "intro"
+        },
+        "products": {
+          "type": "bloks",
+          "maximum": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "OneTimeProduct"
+          ],
+          "pos": 13,
+          "key": "products"
+        },
+        "email": {
+          "type": "text",
+          "required": true,
+          "pos": 14,
+          "key": "email"
+        },
+        "email_invalid": {
+          "type": "text",
+          "required": true,
+          "pos": 15,
+          "key": "email_invalid"
+        },
+        "newsletter_signup": {
+          "type": "text",
+          "required": true,
+          "pos": 16,
+          "key": "newsletter_signup"
+        },
+        "terms": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link"
+          ],
+          "required": true,
+          "pos": 17,
+          "key": "terms"
+        },
+        "button_label": {
+          "type": "text",
+          "required": true,
+          "pos": 18,
+          "key": "button_label"
+        },
+        "cancel_label": {
+          "type": "text",
+          "pos": 19,
+          "key": "cancel_label"
+        },
+        "success_destination": {
+          "type": "multilink",
+          "required": true,
+          "pos": 20,
+          "key": "success_destination"
+        },
+        "cancel_destination": {
+          "type": "multilink",
+          "required": true,
+          "pos": 21,
+          "key": "cancel_destination"
+        },
+        "tab-48f04ba9-3600-430c-bba5-239ad4f068ad": {
+          "type": "tab",
+          "display_name": "Signup form",
+          "keys": [
+            "email",
+            "email_invalid",
+            "newsletter_signup",
+            "terms",
+            "button_label",
+            "cancel_button_label",
+            "cancel_label",
+            "success_url",
+            "success_destination",
+            "cancel_destination"
+          ],
+          "pos": 22,
+          "key": "tab-48f04ba9-3600-430c-bba5-239ad4f068ad"
+        },
+        "tab-fccb4490-3591-4b53-b3bc-b37b076ac176": {
+          "display_name": "Signup form extra - Physical product",
+          "keys": [
+            "name_invalid",
+            "address_line1",
+            "postal_code",
+            "postal_code_invalid",
+            "city",
+            "city_invalid",
+            "address_line1_invalid",
+            "physical_product_preample",
+            "first_name",
+            "first_name_invalid",
+            "last_name",
+            "last_name_invalid"
+          ],
+          "pos": 23,
+          "type": "tab",
+          "key": "tab-fccb4490-3591-4b53-b3bc-b37b076ac176"
+        },
+        "background_image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{intro}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Buy a One-time Product",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Card",
+      "display_name": null,
+      "created_at": "2023-03-10T17:04:29.075Z",
+      "updated_at": "2023-03-10T19:06:59.784Z",
+      "id": 3560524,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "media": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 217738,
+          "required": true
+        },
+        "link": {
+          "type": "multilink"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/1df91ea0fd/screenshot-2023-03-10-at-18-07-56.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Card",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-wallet",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "category",
+      "display_name": null,
+      "created_at": "2023-03-07T03:31:26.116Z",
+      "updated_at": "2023-03-07T03:38:23.540Z",
+      "id": 3537034,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 1
+        },
+        "hide_in_app": {
+          "type": "boolean",
+          "pos": 2,
+          "description": ""
+        },
+        "description": {
+          "type": "richtext",
+          "pos": 3,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph"
+          ]
+        },
+        "tags": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "tag"
+          ],
+          "pos": 5
+        },
+        "tab-bfd257fb-a6e1-4320-b2a1-cb56765dee5a": {
+          "display_name": "Tags",
+          "keys": [
+            "tags"
+          ],
+          "pos": 6,
+          "type": "tab"
+        },
+        "cover": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "category",
+      "component_group_uuid": "b196aec7-d51d-4a6c-adad-4acb6e5cab71",
+      "color": "#fbce41",
+      "icon": "block-@",
+      "component_group_name": "Globals"
+    },
+    {
+      "name": "CategorySwiper",
+      "display_name": null,
+      "created_at": "2023-03-07T03:27:26.739Z",
+      "updated_at": "2023-05-01T08:05:06.111Z",
+      "id": 3537033,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "key": "title"
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 1,
+          "key": "subtitle"
+        },
+        "category_id": {
+          "type": "text",
+          "required": true,
+          "display_name": "category_id",
+          "description": "Get the blok ID (_uid) from the relevant category found on the /[language code]/[Site settings] story. E.g. \"1935f224-0a04-40b1-99e0-205353e392b2\"",
+          "pos": 2,
+          "key": "category"
+        },
+        "show_all_label": {
+          "type": "text"
+        },
+        "category_page": {
+          "type": "multilink",
+          "required": false,
+          "link_scope": "{0}/"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/8dda2c38a7/screenshot-2023-03-06-at-22-27-15.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "CategorySwiper",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-table-2",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "ConversionHero",
+      "display_name": "Conversion Hero (Only PUBLIC)",
+      "created_at": "2023-03-14T11:21:27.570Z",
+      "updated_at": "2023-04-28T07:57:50.204Z",
+      "id": 3580098,
+      "schema": {
+        "access": {
+          "type": "custom",
+          "pos": 0,
+          "required": true,
+          "field_type": "mesterlaere-access-picker",
+          "options": []
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 2
+        },
+        "action_label": {
+          "type": "text",
+          "pos": 3
+        },
+        "action_link": {
+          "type": "multilink",
+          "show_anchor": true,
+          "pos": 4,
+          "link_scope": "{0}/"
+        },
+        "image": {
+          "type": "asset",
+          "required": false,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215738,
+          "pos": 5
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/67822d1d92/screenshot-2023-03-14-at-12-21-17.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{access.selected}} - {{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Conversion Hero (Only PUBLIC)",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "CowboyPoster",
+      "display_name": null,
+      "created_at": "2023-01-04T11:43:10.392Z",
+      "updated_at": "2023-01-04T11:44:44.850Z",
+      "id": 3276382,
+      "schema": {
+        "internal_name": {
+          "type": "text"
+        },
+        "desktop_media": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 202922,
+          "required": true
+        },
+        "mobile_media": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 202922
+        },
+        "url": {
+          "type": "multilink",
+          "email_link_type": true,
+          "show_anchor": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "CowboyPoster",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "CtaBlockButton",
+      "display_name": null,
+      "created_at": "2022-07-04T13:15:13.476Z",
+      "updated_at": "2023-01-23T09:59:44.011Z",
+      "id": 2640617,
+      "schema": {
+        "label": {
+          "type": "text",
+          "pos": 0
+        },
+        "use_main_signup_destination": {
+          "type": "boolean",
+          "pos": 1,
+          "description": "Main Signup Destination is defined on the Global Settings. If this option is TRUE, it will override any link attribute defined on this button"
+        },
+        "link": {
+          "type": "multilink",
+          "pos": 2,
+          "show_anchor": true
+        },
+        "is_primary": {
+          "type": "boolean",
+          "pos": 3
+        },
+        "small_text": {
+          "type": "text",
+          "pos": 4
+        },
+        "is_section": {
+          "type": "boolean",
+          "pos": 5
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "CtaBlockButton",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Episode",
+      "display_name": null,
+      "created_at": "2023-03-05T22:17:36.643Z",
+      "updated_at": "2023-03-06T03:09:39.037Z",
+      "id": 3529340,
+      "schema": {
+        "subtitle": {
+          "type": "text"
+        },
+        "list_item": {
+          "type": "text",
+          "required": false
+        },
+        "intro": {
+          "type": "richtext",
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "list",
+            "olist"
+          ]
+        },
+        "length": {
+          "type": "number",
+          "required": true
+        },
+        "cover": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 216321
+        },
+        "episode_versions": {
+          "type": "bloks",
+          "required": false,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "EpisodeVersion"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Episode",
+      "component_group_uuid": "a239c34b-c2f4-44a1-a54b-8cdfa570ae3d",
+      "color": null,
+      "icon": null,
+      "component_group_name": "App Pages"
+    },
+    {
+      "name": "EpisodeLink",
+      "display_name": null,
+      "created_at": "2023-03-05T22:16:25.125Z",
+      "updated_at": "2023-03-06T03:18:03.145Z",
+      "id": 3529339,
+      "schema": {
+        "link": {
+          "type": "multilink",
+          "required": true,
+          "restrict_content_types": true,
+          "component_whitelist": [
+            "Episode"
+          ],
+          "link_scope": "{0}/{1}/{2}",
+          "force_link_scope": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{link.cached_url}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "EpisodeLink",
+      "component_group_uuid": "bee1822a-9e1a-4680-8816-3b7f94077032",
+      "color": "#00b3b0",
+      "icon": "block-share",
+      "component_group_name": "App Content Components"
+    },
+    {
+      "name": "EpisodeVersion",
+      "display_name": null,
+      "created_at": "2023-03-06T02:17:03.470Z",
+      "updated_at": "2023-04-29T00:27:08.036Z",
+      "id": 3530011,
+      "schema": {
+        "accessv2": {
+          "type": "custom",
+          "field_type": "mesterlaere-access-picker",
+          "options": [],
+          "required": true,
+          "pos": 1,
+          "display_name": "Access V2"
+        },
+        "video_version": {
+          "type": "custom",
+          "required": true,
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "pos": 2
+        },
+        "audio_version": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "audios"
+          ],
+          "asset_folder_id": 216322,
+          "pos": 3
+        },
+        "extra_resources": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "ExtraResource"
+          ],
+          "pos": 4
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{access}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "EpisodeVersion",
+      "component_group_uuid": "bee1822a-9e1a-4680-8816-3b7f94077032",
+      "color": null,
+      "icon": null,
+      "component_group_name": "App Content Components"
+    },
+    {
+      "name": "ExtraResource",
+      "display_name": null,
+      "created_at": "2023-03-06T02:23:16.689Z",
+      "updated_at": "2023-03-06T02:59:05.201Z",
+      "id": 3530063,
+      "schema": {
+        "title": {
+          "type": "text",
+          "required": true,
+          "pos": 0,
+          "key": "title"
+        },
+        "content": {
+          "type": "richtext",
+          "pos": 1,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "list",
+            "olist"
+          ],
+          "key": "content"
+        },
+        "image": {
+          "type": "asset",
+          "pos": 2,
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "display_name": "Image (must be .jpg)",
+          "asset_folder_id": 216325,
+          "key": "image"
+        },
+        "resource_link": {
+          "type": "multilink",
+          "pos": 3,
+          "asset_link_type": true,
+          "key": "external_link"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ExtraResource",
+      "component_group_uuid": "bee1822a-9e1a-4680-8816-3b7f94077032",
+      "color": null,
+      "icon": null,
+      "component_group_name": "App Content Components"
+    },
+    {
+      "name": "Faq",
+      "display_name": "FAQ",
+      "created_at": "2022-07-04T15:55:09.643Z",
+      "updated_at": "2022-07-04T16:02:58.131Z",
+      "id": 2641121,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "faq_items": {
+          "type": "bloks",
+          "maximum": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "FaqItem"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FAQ",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "FaqItem",
+      "display_name": "FAQ Item",
+      "created_at": "2022-07-04T15:55:46.262Z",
+      "updated_at": "2022-07-05T13:49:55.678Z",
+      "id": 2641123,
+      "schema": {
+        "question": {
+          "type": "text"
+        },
+        "answer": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "strike",
+            "italic",
+            "underline",
+            "list",
+            "olist",
+            "link"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FAQ Item",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "FaqItemV2",
+      "display_name": "FAQ Item (V2)",
+      "created_at": "2023-03-14T12:20:15.510Z",
+      "updated_at": "2023-03-14T12:23:27.285Z",
+      "id": 3580295,
+      "schema": {
+        "question": {
+          "type": "text",
+          "required": true
+        },
+        "answer": {
+          "type": "richtext",
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "strike",
+            "italic",
+            "underline",
+            "paragraph",
+            "list",
+            "olist",
+            "link"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/db819a5481/screenshot-2023-03-14-at-13-23-17.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FAQ Item (V2)",
+      "component_group_uuid": "df28ccfd-83c3-46ec-ab3d-3bf2792dfda6",
+      "color": "#1b243f",
+      "icon": "block-arrow-pointer",
+      "component_group_name": "V2 Subcomponents"
+    },
+    {
+      "name": "FaqV2",
+      "display_name": null,
+      "created_at": "2023-03-14T12:19:46.908Z",
+      "updated_at": "2023-03-14T13:17:18.144Z",
+      "id": 3580290,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "faq_items": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "FaqItemV2"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/b1e9459efe/screenshot-2023-03-14-at-13-19-31.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FaqV2",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Founder",
+      "display_name": null,
+      "created_at": "2022-07-08T14:33:11.301Z",
+      "updated_at": "2023-01-04T18:49:02.161Z",
+      "id": 2661510,
+      "schema": {
+        "name": {
+          "type": "text",
+          "pos": 0,
+          "required": true
+        },
+        "title": {
+          "type": "text",
+          "required": true,
+          "pos": 1
+        },
+        "image": {
+          "type": "asset",
+          "required": true,
+          "pos": 2,
+          "filetypes": [
+            "images"
+          ]
+        },
+        "social_media_links": {
+          "type": "bloks",
+          "required": true,
+          "pos": 3,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SocialMediaLink"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Founder",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "GlobalSettings",
+      "display_name": null,
+      "created_at": "2022-07-05T07:48:29.647Z",
+      "updated_at": "2023-01-23T09:42:48.751Z",
+      "id": 2643265,
+      "schema": {
+        "site_name": {
+          "type": "text",
+          "required": true,
+          "pos": 0
+        },
+        "tab-d59f0f12-6ec6-4267-8048-3a83f365c181": {
+          "display_name": "Conversion",
+          "keys": [
+            "main_signup_destination"
+          ],
+          "pos": 0,
+          "type": "tab"
+        },
+        "site_description": {
+          "type": "textarea",
+          "pos": 1
+        },
+        "locale": {
+          "type": "text",
+          "required": true,
+          "pos": 2
+        },
+        "language_code": {
+          "type": "text",
+          "pos": 3,
+          "required": true
+        },
+        "site_url": {
+          "type": "multilink",
+          "required": true,
+          "pos": 4
+        },
+        "header_logo_type": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "pos": 5
+        },
+        "cookie_notice_body": {
+          "type": "richtext",
+          "pos": 6,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "link"
+          ]
+        },
+        "cookie_notice_ok_label": {
+          "type": "text",
+          "required": true,
+          "pos": 7
+        },
+        "og_image": {
+          "type": "asset",
+          "pos": 8,
+          "display_name": "OG:Image",
+          "filetypes": [
+            "images"
+          ],
+          "required": true
+        },
+        "organisation_name": {
+          "type": "text",
+          "required": true,
+          "pos": 9
+        },
+        "organisation_name_legal": {
+          "type": "text",
+          "required": true,
+          "pos": 10
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "pos": 11
+        },
+        "founding_date": {
+          "type": "datetime",
+          "required": true,
+          "disable_time": true,
+          "pos": 12
+        },
+        "founders": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Founder"
+          ],
+          "pos": 13
+        },
+        "street_address": {
+          "type": "text",
+          "pos": 14
+        },
+        "country_code": {
+          "type": "text",
+          "pos": 15,
+          "required": true
+        },
+        "contact_phone": {
+          "type": "text",
+          "pos": 16
+        },
+        "contact_email": {
+          "type": "text",
+          "pos": 17
+        },
+        "social_media_links": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SocialMediaLink"
+          ],
+          "required": true,
+          "pos": 18
+        },
+        "above_footer": {
+          "type": "bloks",
+          "pos": 19,
+          "restrict_components": true,
+          "restrict_type": "groups",
+          "component_group_whitelist": [
+            "630701a8-3bab-4c0a-b10a-63c9096bd059"
+          ]
+        },
+        "footer_nav_title": {
+          "type": "text",
+          "required": true,
+          "pos": 20
+        },
+        "footer_contact_title": {
+          "type": "text",
+          "pos": 21
+        },
+        "newsletter_block": {
+          "type": "bloks",
+          "pos": 22,
+          "maximum": "1",
+          "restrict_components": true,
+          "component_whitelist": [
+            "NewsletterSignup"
+          ],
+          "required": false
+        },
+        "frontpage_link_label": {
+          "type": "text",
+          "pos": 23,
+          "required": true,
+          "description": "Shown on checkout pages as the only link to navigate away from page."
+        },
+        "navigation": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "NavigationItem"
+          ],
+          "pos": 24
+        },
+        "tab-9b78f8d4-baa0-4e2e-aa0f-59f6af728a57": {
+          "type": "tab",
+          "display_name": "Navigation",
+          "keys": [
+            "navigation",
+            "frontpage_link_label"
+          ],
+          "pos": 25
+        },
+        "tab-1bf6ad76-0e6d-4de5-9df2-95304ba70116": {
+          "type": "tab",
+          "display_name": "SEO",
+          "keys": [
+            "og_image",
+            "organisation_name",
+            "organisation_name_legal",
+            "home_url",
+            "logo",
+            "founding_date",
+            "founders",
+            "street_address",
+            "contact_phone",
+            "contact_email",
+            "social_media_links",
+            "country_code"
+          ],
+          "pos": 26
+        },
+        "tab-8153e960-1621-4c29-a876-3b2232d300d2": {
+          "type": "tab",
+          "display_name": "Footer",
+          "keys": [
+            "contact_title",
+            "contact_text",
+            "footer_nav_title",
+            "newsletter_block",
+            "above_footer",
+            "footer_contact_title",
+            "footer_logo"
+          ],
+          "pos": 27
+        },
+        "tab-de8887bc-428d-4f12-8708-db26b5d816d3": {
+          "type": "tab",
+          "display_name": "Seasons",
+          "keys": [
+            "season_contents_tab_episodes",
+            "season_contents_tab_more_info"
+          ],
+          "pos": 28
+        },
+        "season_contents_tab_episodes": {
+          "type": "text",
+          "required": true,
+          "pos": 29
+        },
+        "season_contents_tab_more_info": {
+          "type": "text",
+          "required": true,
+          "pos": 30
+        },
+        "footer_logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "pos": 31
+        },
+        "tab-091bdc3d-caa0-4fa9-807e-ff0b65458bd0": {
+          "type": "tab",
+          "display_name": "Cookie notice",
+          "keys": [
+            "cookie_notice_ok_label",
+            "cookie_notice_body"
+          ],
+          "pos": 32
+        },
+        "main_signup_destination": {
+          "type": "multilink",
+          "required": true,
+          "description": "Used as a general option, when we sprinkle CTA buttons around the site. Point to \"Main Signup Destination\"",
+          "show_anchor": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "GlobalSettings",
+      "component_group_uuid": "b196aec7-d51d-4a6c-adad-4acb6e5cab71",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Globals"
+    },
+    {
+      "name": "GlobalSettingsInternational",
+      "display_name": null,
+      "created_at": "2023-01-04T18:35:16.937Z",
+      "updated_at": "2023-05-02T09:45:20.842Z",
+      "id": 3278039,
+      "schema": {
+        "above_footer": {
+          "type": "bloks",
+          "pos": 0,
+          "restrict_components": true,
+          "restrict_type": "groups",
+          "component_group_whitelist": [
+            "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a"
+          ],
+          "key": "above_footer"
+        },
+        "footer_nav_title": {
+          "type": "text",
+          "required": true,
+          "pos": 1,
+          "key": "footer_nav_title"
+        },
+        "footer_contact_title": {
+          "type": "text",
+          "pos": 2,
+          "key": "footer_contact_title"
+        },
+        "newsletter_block": {
+          "type": "bloks",
+          "pos": 3,
+          "maximum": "1",
+          "restrict_components": true,
+          "component_whitelist": [
+            "NewsletterSignup"
+          ],
+          "required": false,
+          "key": "newsletter_block"
+        },
+        "footer_logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "pos": 4,
+          "key": "footer_logo"
+        },
+        "blocks": {
+          "type": "option",
+          "use_uuid": true,
+          "source": "internal_stories",
+          "folder_slug": "",
+          "key": "newsletter",
+          "pos": 5
+        },
+        "site_name": {
+          "type": "text",
+          "required": true,
+          "pos": 6,
+          "key": "site_name"
+        },
+        "site_description": {
+          "type": "textarea",
+          "pos": 7,
+          "key": "site_description"
+        },
+        "locale": {
+          "type": "text",
+          "required": true,
+          "pos": 8,
+          "key": "locale"
+        },
+        "locale_full": {
+          "type": "text",
+          "pos": 9,
+          "required": true,
+          "key": "locale_full"
+        },
+        "site_url": {
+          "type": "multilink",
+          "required": true,
+          "pos": 10,
+          "key": "site_url"
+        },
+        "header_logo_type": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "pos": 11,
+          "key": "header_logo_type"
+        },
+        "watch_mesterlaere_label": {
+          "type": "text",
+          "pos": 12,
+          "required": true,
+          "description": "Label on the primary button to start watching a Mesterlære",
+          "key": "watch_mesterlaere_label"
+        },
+        "watch_episode_label": {
+          "type": "text",
+          "pos": 13,
+          "required": true,
+          "key": "watch_episode_label"
+        },
+        "you_learn_label": {
+          "type": "text",
+          "required": true,
+          "key": "you_learn_label",
+          "pos": 14
+        },
+        "you_get_label": {
+          "type": "text",
+          "required": true,
+          "key": "you_get_label",
+          "pos": 15
+        },
+        "global_production_blocks": {
+          "type": "bloks",
+          "description": "Contents we show below productions contents on each production page.",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a"
+          ],
+          "pos": 16,
+          "key": "global_production_blocks"
+        },
+        "become_member_label": {
+          "type": "text",
+          "pos": 17,
+          "required": true,
+          "description": "Multiple places in the contents (e.g. on a Production page), we show a \"Become member\" button to visitors without membership. What should the label of that button be?",
+          "key": "become_member_label"
+        },
+        "become_member_link": {
+          "type": "multilink",
+          "pos": 18,
+          "required": true,
+          "description": "Multiple places in the contents (e.g. on a Production page), we show a \"Become member\" button to visitors without membership. Where should we send those?",
+          "key": "become_member_link"
+        },
+        "signup_title": {
+          "type": "text",
+          "pos": 19,
+          "required": true,
+          "key": "signup_title"
+        },
+        "signup_have_coupon": {
+          "type": "text",
+          "pos": 20,
+          "required": true,
+          "key": "signup_have_coupon"
+        },
+        "signup_newsletter": {
+          "type": "text",
+          "key": "signup_newsletter",
+          "pos": 21,
+          "required": true
+        },
+        "signup_conditions": {
+          "type": "richtext",
+          "key": "signup_conditions",
+          "pos": 22,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "link"
+          ]
+        },
+        "signup_already_member": {
+          "type": "text",
+          "key": "signup_already_member",
+          "pos": 23,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link"
+          ],
+          "description": "[ACTION] will be replaced with a localised version of \"sign in\" that is a link to allow the user to sign in"
+        },
+        "signup_button_label": {
+          "type": "text",
+          "required": true,
+          "pos": 24,
+          "key": "signup_button_label"
+        },
+        "tab-d967f7f1-079a-406e-b53e-1d02d1c3b08f": {
+          "display_name": "Categories",
+          "keys": [
+            "categories"
+          ],
+          "pos": 25,
+          "type": "tab",
+          "name": "tab-d967f7f1-079a-406e-b53e-1d02d1c3b08f",
+          "key": "tab-d967f7f1-079a-406e-b53e-1d02d1c3b08f"
+        },
+        "enable_sticky_cta": {
+          "type": "boolean",
+          "pos": 26,
+          "display_name": "Enable Sticky CTA",
+          "key": "enable_sticky_cta"
+        },
+        "tab-9b78f8d4-baa0-4e2e-aa0f-59f6af728a57": {
+          "type": "tab",
+          "display_name": "Navigation",
+          "keys": [
+            "navigation"
+          ],
+          "pos": 27,
+          "name": "tab-9b78f8d4-baa0-4e2e-aa0f-59f6af728a57",
+          "key": "tab-9b78f8d4-baa0-4e2e-aa0f-59f6af728a57"
+        },
+        "product_label": {
+          "type": "text",
+          "required": true,
+          "pos": 28,
+          "key": "product_label"
+        },
+        "tab-1bf6ad76-0e6d-4de5-9df2-95304ba70116": {
+          "type": "tab",
+          "display_name": "SEO",
+          "keys": [
+            "og_image",
+            "organisation_name",
+            "organisation_name_legal",
+            "home_url",
+            "logo",
+            "founding_date",
+            "founders",
+            "street_address",
+            "contact_phone",
+            "contact_email",
+            "social_media_links",
+            "country_code"
+          ],
+          "pos": 29,
+          "name": "tab-1bf6ad76-0e6d-4de5-9df2-95304ba70116",
+          "key": "tab-1bf6ad76-0e6d-4de5-9df2-95304ba70116"
+        },
+        "price_before": {
+          "type": "number",
+          "pos": 30,
+          "decimals": 0,
+          "key": "price_before"
+        },
+        "tab-8153e960-1621-4c29-a876-3b2232d300d2": {
+          "type": "tab",
+          "display_name": "Footer",
+          "keys": [
+            "contact_title",
+            "contact_text",
+            "footer_nav_title",
+            "newsletter_block",
+            "above_footer",
+            "footer_contact_title",
+            "footer_logo",
+            "newsletter",
+            "blocks"
+          ],
+          "pos": 31,
+          "name": "tab-8153e960-1621-4c29-a876-3b2232d300d2",
+          "key": "tab-8153e960-1621-4c29-a876-3b2232d300d2"
+        },
+        "price": {
+          "type": "number",
+          "required": true,
+          "pos": 32,
+          "decimals": 0,
+          "key": "price"
+        },
+        "tab-2b296353-52e9-4d78-bc08-6795f37c659c": {
+          "display_name": "Sticky CTA",
+          "keys": [
+            "product_label",
+            "price_before",
+            "price",
+            "action_label",
+            "action_link",
+            "enable_sticky_cta"
+          ],
+          "pos": 33,
+          "type": "tab",
+          "name": "tab-2b296353-52e9-4d78-bc08-6795f37c659c",
+          "key": "tab-2b296353-52e9-4d78-bc08-6795f37c659c"
+        },
+        "action_label": {
+          "type": "text",
+          "required": true,
+          "pos": 34,
+          "key": "action_label"
+        },
+        "tab-091bdc3d-caa0-4fa9-807e-ff0b65458bd0": {
+          "type": "tab",
+          "display_name": "Cookie notice",
+          "keys": [
+            "cookie_notice_ok_label",
+            "cookie_notice_body"
+          ],
+          "pos": 35,
+          "name": "tab-091bdc3d-caa0-4fa9-807e-ff0b65458bd0",
+          "key": "tab-091bdc3d-caa0-4fa9-807e-ff0b65458bd0"
+        },
+        "action_link": {
+          "type": "multilink",
+          "required": true,
+          "show_anchor": true,
+          "email_link_type": true,
+          "pos": 36,
+          "key": "action_link"
+        },
+        "tab-63815157-7761-44c1-a8ae-7617d9afd776": {
+          "display_name": "Production Pages",
+          "keys": [
+            "label_you_get",
+            "label_you_learn",
+            "you_get_label",
+            "you_learn_label",
+            "global_production_blocks",
+            "watch_mesterlaere_label",
+            "watch_episode_label"
+          ],
+          "pos": 37,
+          "type": "tab",
+          "key": "tab-63815157-7761-44c1-a8ae-7617d9afd776"
+        },
+        "categories": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "category"
+          ],
+          "pos": 38,
+          "key": "categories"
+        },
+        "cookie_notice_body": {
+          "type": "textarea",
+          "pos": 39,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "link"
+          ],
+          "key": "cookie_notice_body",
+          "required": true
+        },
+        "cookie_notice_ok_label": {
+          "type": "text",
+          "required": true,
+          "pos": 40,
+          "key": "cookie_notice_ok_label"
+        },
+        "og_image": {
+          "type": "asset",
+          "pos": 41,
+          "display_name": "OG:Image",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "key": "og_image"
+        },
+        "organisation_name": {
+          "type": "text",
+          "required": true,
+          "pos": 42,
+          "key": "organisation_name"
+        },
+        "organisation_name_legal": {
+          "type": "text",
+          "required": true,
+          "pos": 43,
+          "key": "organisation_name_legal"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "pos": 44,
+          "key": "logo"
+        },
+        "founding_date": {
+          "type": "datetime",
+          "required": true,
+          "disable_time": true,
+          "pos": 45,
+          "key": "founding_date"
+        },
+        "founders": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Founder"
+          ],
+          "pos": 46,
+          "key": "founders",
+          "required": true,
+          "minimum": 1
+        },
+        "street_address": {
+          "type": "text",
+          "pos": 47,
+          "key": "street_address"
+        },
+        "country_code": {
+          "type": "text",
+          "pos": 48,
+          "required": true,
+          "key": "country_code"
+        },
+        "contact_phone": {
+          "type": "text",
+          "pos": 49,
+          "key": "contact_phone",
+          "required": true
+        },
+        "contact_email": {
+          "type": "text",
+          "pos": 50,
+          "key": "contact_email"
+        },
+        "social_media_links": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SocialMediaLink"
+          ],
+          "required": true,
+          "pos": 51,
+          "key": "social_media_links"
+        },
+        "navigation": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "NavigationItem"
+          ],
+          "pos": 52,
+          "key": "navigation"
+        },
+        "tab-b7e3630b-0ed1-4ecf-b030-c038bcd6806c": {
+          "display_name": "Signup Flow",
+          "keys": [
+            "signup_newsletter_label",
+            "signup_conditions",
+            "signup_already_member",
+            "signup_newsletter",
+            "signup_title",
+            "signup_have_coupon",
+            "signup_button_label",
+            "become_member_link",
+            "become_member_label"
+          ],
+          "pos": 53,
+          "type": "tab",
+          "key": "tab-b7e3630b-0ed1-4ecf-b030-c038bcd6806c"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "GlobalSettingsInternational",
+      "component_group_uuid": "b196aec7-d51d-4a6c-adad-4acb6e5cab71",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Globals"
+    },
+    {
+      "name": "Hero",
+      "display_name": null,
+      "created_at": "2022-07-05T06:18:44.846Z",
+      "updated_at": "2023-03-13T11:24:10.305Z",
+      "id": 2642748,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "text": {
+          "type": "textarea",
+          "pos": 2
+        },
+        "cta": {
+          "type": "bloks",
+          "maximum": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "CtaBlockButton"
+          ],
+          "pos": 3
+        },
+        "video": {
+          "type": "custom",
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "pos": 4
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 5,
+          "description": "NB: Only used, if no video is selected"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Hero",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "HeroBlack",
+      "display_name": "Black Hero",
+      "created_at": "2022-11-29T08:14:37.387Z",
+      "updated_at": "2022-12-15T10:43:55.765Z",
+      "id": 3177109,
+      "schema": {
+        "title": {
+          "type": "richtext",
+          "pos": 0,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "h1"
+          ],
+          "style_options": [
+            {
+              "_uid": "bc7a5060-211e-477d-b8e9-974e07993604",
+              "name": "White",
+              "value": "white-text"
+            },
+            {
+              "_uid": "42fdb6d7-c696-4170-99dd-4ca68a3a7851",
+              "value": "light-grey-text",
+              "name": "Light Grey"
+            }
+          ]
+        },
+        "text": {
+          "type": "richtext",
+          "pos": 1,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "link",
+            "blok"
+          ],
+          "style_options": [
+            {
+              "_uid": "efd14a0f-98f9-4c11-840e-ad0e3dd9623c",
+              "name": "Primary Color Text",
+              "value": "primary-color-text"
+            }
+          ],
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_group_whitelist": [],
+          "component_whitelist": [
+            "CtaBlockButton"
+          ]
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 4,
+          "description": "NB: Only used, if no video is selected"
+        },
+        "image_floating_outside": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "allow_external_url": false
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Black Hero",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Landscape",
+      "display_name": null,
+      "created_at": "2022-07-07T11:24:03.998Z",
+      "updated_at": "2022-07-07T11:25:42.507Z",
+      "id": 2656152,
+      "schema": {
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true
+        },
+        "text": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Landscape",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "LandscapeSwiper",
+      "display_name": null,
+      "created_at": "2022-07-07T11:23:17.639Z",
+      "updated_at": "2022-07-07T11:27:31.293Z",
+      "id": 2656123,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "landscapes": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Landscape"
+          ],
+          "pos": 2
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "LandscapeSwiper",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "LogoWall",
+      "display_name": null,
+      "created_at": "2022-07-04T14:02:54.366Z",
+      "updated_at": "2022-07-04T14:04:51.900Z",
+      "id": 2640788,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "logowall_items": {
+          "type": "bloks",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "LogoWallItem"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "LogoWall",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "LogoWallItem",
+      "display_name": null,
+      "created_at": "2022-07-04T14:03:50.228Z",
+      "updated_at": "2022-07-22T16:02:58.734Z",
+      "id": 2640789,
+      "schema": {
+        "link": {
+          "type": "multilink"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{link.cached_url}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "LogoWallItem",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "MediaWithQuote",
+      "display_name": null,
+      "created_at": "2023-03-10T16:43:53.951Z",
+      "updated_at": "2023-03-10T19:07:15.794Z",
+      "id": 3560362,
+      "schema": {
+        "quote": {
+          "type": "textarea",
+          "pos": 0,
+          "required": true
+        },
+        "author": {
+          "type": "text",
+          "pos": 1,
+          "required": true
+        },
+        "video": {
+          "type": "custom",
+          "required": true,
+          "filetypes": [
+            "images",
+            "videos"
+          ],
+          "pos": 2,
+          "display_name": "",
+          "field_type": "mesterlaere-video-selector",
+          "options": []
+        },
+        "link_label": {
+          "type": "text",
+          "pos": 3
+        },
+        "link": {
+          "type": "multilink",
+          "pos": 4
+        },
+        "is_new": {
+          "type": "boolean"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/7af8fc256d/screenshot-2023-03-10-at-17-43-23.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "MediaWithQuote",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-comment",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "MyList",
+      "display_name": null,
+      "created_at": "2023-03-17T17:10:08.751Z",
+      "updated_at": "2023-05-04T09:58:30.950Z",
+      "id": 3602736,
+      "schema": {
+        "title": {
+          "type": "text",
+          "required": true
+        },
+        "show_all_label": {
+          "type": "text"
+        },
+        "show_all_link": {
+          "type": "multilink"
+        },
+        "show_episodes": {
+          "type": "boolean"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/893f22b2ee/screenshot-2023-03-17-at-18-09-55.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "MyList",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "NavigationItem",
+      "display_name": null,
+      "created_at": "2022-07-05T07:49:42.650Z",
+      "updated_at": "2023-05-04T09:17:23.574Z",
+      "id": 2643267,
+      "schema": {
+        "label": {
+          "type": "text",
+          "required": true,
+          "pos": 0,
+          "key": "label"
+        },
+        "link": {
+          "type": "multilink",
+          "required": true,
+          "show_anchor": true,
+          "pos": 1,
+          "key": "link",
+          "link_scope": "{0}/"
+        },
+        "show_in_top": {
+          "type": "boolean",
+          "pos": 2,
+          "key": "show_in_top"
+        },
+        "show_in_footer": {
+          "type": "boolean",
+          "pos": 3,
+          "key": "show_in_footer"
+        },
+        "is_button": {
+          "type": "boolean",
+          "pos": 4,
+          "key": "is_button"
+        },
+        "is_primary": {
+          "type": "boolean",
+          "pos": 5,
+          "key": "is_primary"
+        },
+        "only_when_logged_in": {
+          "type": "boolean",
+          "pos": 6,
+          "key": "only_when_logged_in"
+        },
+        "only_when_not_logged_in": {
+          "type": "boolean",
+          "pos": 7,
+          "key": "only_when_not_logged_in"
+        },
+        "show_in_sticky_navbar": {
+          "type": "boolean",
+          "pos": 8,
+          "key": "show_in_sticky_menu"
+        },
+        "nav_icon": {
+          "type": "option",
+          "use_uuid": true,
+          "source": "internal",
+          "datasource_slug": "navicons",
+          "pos": 9,
+          "key": "nav_icon"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{label}} - \n{{link.cached_url}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "NavigationItem",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "NewsletterSignup",
+      "display_name": null,
+      "created_at": "2022-07-05T10:04:14.570Z",
+      "updated_at": "2022-07-05T10:27:05.426Z",
+      "id": 2644138,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "name": {
+          "type": "text",
+          "pos": 1
+        },
+        "email": {
+          "type": "text",
+          "pos": 3
+        },
+        "email_invalid": {
+          "type": "text",
+          "pos": 4
+        },
+        "terms": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link"
+          ],
+          "pos": 5
+        },
+        "send_label": {
+          "type": "text",
+          "pos": 6
+        },
+        "receipt": {
+          "type": "richtext",
+          "pos": 7,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "h3",
+            "list",
+            "olist",
+            "link",
+            "paragraph"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "NewsletterSignup",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "NewsletterSignupV2",
+      "display_name": null,
+      "created_at": "2023-04-25T08:19:18.536Z",
+      "updated_at": "2023-04-25T08:47:05.993Z",
+      "id": 3877949,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "terms": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link"
+          ],
+          "pos": 5,
+          "required": true
+        },
+        "send_label": {
+          "type": "text",
+          "pos": 6,
+          "required": true
+        },
+        "receipt": {
+          "type": "richtext",
+          "pos": 7,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "h3",
+            "list",
+            "olist",
+            "link",
+            "paragraph"
+          ],
+          "required": true
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/28ba191f91/componentnewslettersignuppreview.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "NewsletterSignupV2",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "OneTimeProduct",
+      "display_name": "One-time Product",
+      "created_at": "2022-11-06T21:03:24.838Z",
+      "updated_at": "2022-12-01T12:48:12.640Z",
+      "id": 3084980,
+      "schema": {
+        "product_id": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "description": "Be careful with this. Has to be a real product id for a real one-time product",
+          "display_name": "Product ID (Ask Simon)",
+          "key": "productId"
+        },
+        "title": {
+          "type": "text",
+          "pos": 1,
+          "key": "title",
+          "customize_toolbar": true,
+          "toolbar": [
+            "h1",
+            "h4",
+            "paragraph"
+          ],
+          "display_name": "Title (OLD)"
+        },
+        "title_box": {
+          "type": "richtext",
+          "pos": 2,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "h1",
+            "h4",
+            "paragraph"
+          ],
+          "style_options": [
+            {
+              "_uid": "dba62941-c0b7-4848-810c-ae0752b0c8b5",
+              "name": "Light Grey",
+              "value": "light-grey-text"
+            }
+          ]
+        },
+        "text": {
+          "type": "richtext",
+          "pos": 3,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "list",
+            "olist",
+            "link"
+          ],
+          "key": "text",
+          "style_options": [
+            {
+              "_uid": "8859cec5-e113-4e46-aafc-c88c3738df96",
+              "name": "White text",
+              "value": "white-text"
+            }
+          ]
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 4,
+          "key": "cta_label"
+        },
+        "ribbon": {
+          "type": "bloks",
+          "maximum": "1",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SignupProductRibbon"
+          ],
+          "pos": 5,
+          "key": "ribbon"
+        },
+        "is_physical": {
+          "type": "boolean",
+          "pos": 6
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "One-time Product",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2022-06-30T07:22:46.928Z",
+      "updated_at": "2023-03-07T03:02:01.787Z",
+      "id": 2622515,
+      "schema": {
+        "body": {
+          "type": "bloks",
+          "restrict_components": true,
+          "restrict_type": "groups",
+          "component_group_whitelist": [
+            "630701a8-3bab-4c0a-b10a-63c9096bd059"
+          ]
+        },
+        "tab-fa2bc770-e924-4cc0-a891-e93b551e702c": {
+          "type": "tab",
+          "display_name": "SEO",
+          "keys": [
+            "seo_description"
+          ],
+          "pos": 0
+        },
+        "seo_description": {
+          "type": "textarea",
+          "description": "Max approx. 160 characters"
+        },
+        "tab-650bb7eb-22e4-48a8-92dc-bb6753077480": {
+          "type": "tab",
+          "display_name": "Variants",
+          "keys": [
+            "is_checkout"
+          ],
+          "pos": 0
+        },
+        "is_checkout": {
+          "type": "boolean",
+          "description": "If true, the page will hide Footer and show a trimmed version of the Header"
+        },
+        "tab-6b28b9f4-aeae-4d6b-8b31-12523bcb961e": {
+          "display_name": "Meta",
+          "keys": [
+            "season_length"
+          ],
+          "pos": 0,
+          "type": "tab"
+        },
+        "season_length": {
+          "type": "text",
+          "description": "How long is this mesterlære?"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": "1df27a73-b24b-48c0-b33e-218df282a03e",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Pages"
+    },
+    {
+      "name": "PageHero",
+      "display_name": null,
+      "created_at": "2023-03-17T06:33:09.526Z",
+      "updated_at": "2023-04-28T10:19:13.393Z",
+      "id": 3598120,
+      "schema": {
+        "title": {
+          "type": "text",
+          "required": true,
+          "pos": 0
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 1
+        },
+        "cuff": {
+          "type": "textarea",
+          "pos": 2
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215738,
+          "pos": 3
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/88555bc456/screenshot-2023-03-17-at-07-34-05.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PageHero",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Part",
+      "display_name": null,
+      "created_at": "2023-03-05T21:44:33.712Z",
+      "updated_at": "2023-03-06T03:13:00.409Z",
+      "id": 3529247,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "intro": {
+          "type": "text"
+        },
+        "episodes": {
+          "type": "bloks",
+          "required": true,
+          "minimum": 1,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "EpisodeLink"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Part",
+      "component_group_uuid": "bee1822a-9e1a-4680-8816-3b7f94077032",
+      "color": null,
+      "icon": null,
+      "component_group_name": "App Content Components"
+    },
+    {
+      "name": "PickupWhereYouLeft",
+      "display_name": null,
+      "created_at": "2023-03-07T03:00:24.538Z",
+      "updated_at": "2023-03-10T19:07:24.923Z",
+      "id": 3536985,
+      "schema": {
+        "title": {
+          "type": "text"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/af08929248/screenshot-2023-03-06-at-22-18-06.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PickupWhereYouLeft",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-arrow-pointer",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Plan",
+      "display_name": null,
+      "created_at": "2023-03-10T19:03:37.479Z",
+      "updated_at": "2023-05-02T14:23:46.875Z",
+      "id": 3561060,
+      "schema": {
+        "show_without_coupon_match": {
+          "type": "boolean",
+          "pos": 0,
+          "description": "When true, this product will be showcased. If false, it will only be available if the user keys in a coupon code that pays for the product",
+          "default_value": true
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        },
+        "top_label": {
+          "type": "text",
+          "pos": 2
+        },
+        "price": {
+          "type": "number",
+          "required": true,
+          "min_value": 0,
+          "decimals": 0,
+          "pos": 3
+        },
+        "price_before": {
+          "type": "number",
+          "pos": 4,
+          "decimals": 0
+        },
+        "content": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "list",
+            "olist",
+            "link"
+          ],
+          "style_options": [
+            {
+              "_uid": "f9678632-c51b-417d-a0e4-8a1f32b0b846",
+              "name": "checkmarks",
+              "value": "checkmarks"
+            }
+          ],
+          "pos": 5
+        },
+        "action_label": {
+          "type": "text",
+          "pos": 6
+        },
+        "reepayPlanId": {
+          "type": "option",
+          "pos": 7,
+          "use_uuid": true,
+          "exclude_empty_option": true,
+          "options": [
+            {
+              "_uid": "73c8a051-ce81-493f-acb7-ff82e6f4d765",
+              "value": "plan-5b6a7",
+              "name": "Yearly subscription"
+            },
+            {
+              "_uid": "83a0cb75-84a1-41dd-a0fe-fdec973da85a",
+              "value": "plan-bdfbb",
+              "name": "Monthly subscription"
+            },
+            {
+              "_uid": "16d92f73-72c9-442f-a650-3b39848f9213",
+              "value": "plan-0b5c0",
+              "name": "1 year of Mesterlære (non-renewing)"
+            },
+            {
+              "_uid": "66ec616b-2f2a-451d-bbb8-a419507ab60d",
+              "name": "1 month of Mesterlære (non-renewing)",
+              "value": "plan-2b294"
+            }
+          ]
+        },
+        "special_combo": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "cfb4b3e9-a6f4-424e-8947-f900ac247baf",
+              "name": "49,- per month, 30 days trial",
+              "value": "fglwiejfdvkmcvsejfpefjeefaf"
+            },
+            {
+              "_uid": "797020d9-f60e-4264-9020-07143c4350cf",
+              "value": "dsfwdfSDVefwefaxcaWDEWSAdd",
+              "name": "449,- per year, 30 days trial"
+            }
+          ],
+          "default_value": "Only use, if you want to override the normal price of this subscription. The price will also be used when the subscription is automatically renewed.",
+          "exclude_empty_option": true
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/35172e7a45/screenshot-2023-03-10-at-20-03-48.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{ title }} - \n{{if(options.show_without_coupon_match === true)}}\nShowing\n{{#else}}\nHidden\n{{/if}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Plan",
+      "component_group_uuid": "df28ccfd-83c3-46ec-ab3d-3bf2792dfda6",
+      "color": "#1b243f",
+      "icon": "block-dollar-sign",
+      "component_group_name": "V2 Subcomponents"
+    },
+    {
+      "name": "PlanPicker",
+      "display_name": null,
+      "created_at": "2023-03-10T19:01:47.635Z",
+      "updated_at": "2023-04-09T15:56:52.347Z",
+      "id": 3561059,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "key": "title"
+        },
+        "plans": {
+          "type": "bloks",
+          "required": true,
+          "minimum": 1,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Plan"
+          ],
+          "key": "plans",
+          "pos": 1
+        },
+        "get_started_title": {
+          "type": "text",
+          "pos": 2
+        },
+        "get_started_bloks": {
+          "type": "bloks",
+          "key": "get_started",
+          "pos": 3,
+          "display_name": "",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a"
+          ],
+          "minimum": 1,
+          "maximum": 2,
+          "required": true,
+          "description": "What to show to user, when they have signed up successfully"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/c6d709807e/screenshot-2023-03-10-at-20-04-06.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PlanPicker",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-dollar-sign",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "PlayableLinkPoster",
+      "display_name": null,
+      "created_at": "2023-03-01T23:14:22.598Z",
+      "updated_at": "2023-05-01T19:23:04.027Z",
+      "id": 3511571,
+      "schema": {
+        "title": {
+          "type": "text",
+          "key": "title",
+          "pos": 0
+        },
+        "subtitle": {
+          "type": "text",
+          "key": "subtitle",
+          "pos": 1
+        },
+        "image": {
+          "type": "asset",
+          "key": "media",
+          "pos": 2,
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215737
+        },
+        "has_play_button": {
+          "type": "boolean",
+          "key": "has_play_button",
+          "pos": 3
+        },
+        "link": {
+          "type": "multilink",
+          "pos": 4,
+          "required": false,
+          "link_scope": "{0}/"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/595dd8364d/screenshot-2023-03-06-at-21-51-32.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PlayableLinkPoster",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-resize-fc",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Portrait",
+      "display_name": null,
+      "created_at": "2022-07-07T11:10:31.743Z",
+      "updated_at": "2022-07-07T11:15:39.727Z",
+      "id": 2656115,
+      "schema": {
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": true
+        },
+        "title": {
+          "type": "text"
+        },
+        "text": {
+          "type": "textarea"
+        },
+        "link": {
+          "type": "multilink",
+          "show_anchor": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Portrait",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "PortraitSwiper",
+      "display_name": null,
+      "created_at": "2022-07-07T11:09:52.920Z",
+      "updated_at": "2022-07-07T11:12:26.766Z",
+      "id": 2656114,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "text": {
+          "type": "textarea"
+        },
+        "portraits": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Portrait"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PortraitSwiper",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "PosterWithCuff",
+      "display_name": null,
+      "created_at": "2023-03-07T03:11:03.300Z",
+      "updated_at": "2023-03-17T06:43:29.468Z",
+      "id": 3537009,
+      "schema": {
+        "preheader": {
+          "type": "text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215739
+        },
+        "title": {
+          "type": "text"
+        },
+        "cuff": {
+          "type": "textarea"
+        },
+        "button_label": {
+          "type": "text"
+        },
+        "button_link": {
+          "type": "multilink",
+          "link_scope": ""
+        },
+        "image_float": {
+          "type": "option",
+          "use_uuid": true,
+          "required": true,
+          "options": [
+            {
+              "_uid": "3919d29b-a291-4a04-95ab-8a25df080619",
+              "value": "left",
+              "name": "Left"
+            },
+            {
+              "_uid": "609cbeec-b0ab-4057-8853-b8e060756a27",
+              "name": "Right",
+              "value": "right"
+            }
+          ],
+          "exclude_empty_option": true,
+          "default_value": "left"
+        },
+        "vertical_text_align": {
+          "type": "option",
+          "use_uuid": true,
+          "required": true,
+          "options": [
+            {
+              "_uid": "3671089c-03a2-4b6e-9c8d-c175d0ce43dd",
+              "name": "Top",
+              "value": "top"
+            },
+            {
+              "_uid": "f0038b22-9ac5-4f61-9f75-4d399cce0fb4",
+              "value": "middle",
+              "name": "Middle"
+            }
+          ],
+          "exclude_empty_option": true,
+          "default_value": "top"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/dd2c75c482/screenshot-2023-03-06-at-22-14-44.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{preheader}} - {{title}} - {{cuff}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PosterWithCuff",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-text-img-l",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "Production",
+      "display_name": "Production",
+      "created_at": "2023-03-05T21:25:47.810Z",
+      "updated_at": "2023-05-04T07:17:52.792Z",
+      "id": 3529181,
+      "schema": {
+        "tab-cf1cb316-ab2d-48dc-bbb9-ec95efe3f77a": {
+          "display_name": "Episodes",
+          "keys": [
+            "structure"
+          ],
+          "pos": 0,
+          "type": "tab",
+          "name": "tab-cf1cb316-ab2d-48dc-bbb9-ec95efe3f77a"
+        },
+        "planned_release_date": {
+          "type": "datetime",
+          "pos": 0,
+          "description": "If this is in the future, the \"Coming soon\" label will be added to the production"
+        },
+        "tab-54f4553a-ff10-4f25-ae6a-c56ed8f16ca6": {
+          "display_name": "Blocks",
+          "keys": [
+            "blocks"
+          ],
+          "pos": 1,
+          "type": "tab",
+          "name": "tab-54f4553a-ff10-4f25-ae6a-c56ed8f16ca6"
+        },
+        "category": {
+          "type": "custom",
+          "field_type": "mesterlaere-category-picker-v2",
+          "options": [
+            {
+              "name": "globalSettingsLocation",
+              "value": "da/site-settings",
+              "_uid": "316359f4-bcb5-48f3-848c-c9a8f4a5b234"
+            }
+          ],
+          "required": false,
+          "pos": 1
+        },
+        "tab-f0b603e9-01a0-4ecc-bf26-2c579d20fe78": {
+          "display_name": "Metadata",
+          "keys": [
+            "category"
+          ],
+          "pos": 2,
+          "type": "tab",
+          "name": "tab-f0b603e9-01a0-4ecc-bf26-2c579d20fe78"
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 2
+        },
+        "intro": {
+          "type": "textarea",
+          "required": true,
+          "pos": 3
+        },
+        "covers": {
+          "type": "multiasset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215739,
+          "pos": 4
+        },
+        "trailer": {
+          "type": "custom",
+          "display_name": "",
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "required": true,
+          "pos": 5
+        },
+        "author_name": {
+          "type": "text",
+          "pos": 6,
+          "required": true
+        },
+        "author_portrait": {
+          "type": "asset",
+          "pos": 7,
+          "required": true,
+          "description": "",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215737
+        },
+        "you_get": {
+          "type": "textarea",
+          "pos": 8,
+          "required": false
+        },
+        "you_learn": {
+          "type": "richtext",
+          "pos": 9,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "list",
+            "olist"
+          ]
+        },
+        "structure": {
+          "type": "bloks",
+          "required": false,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "EpisodeLink"
+          ],
+          "pos": 11
+        },
+        "blocks": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SwiperReels",
+            "AllAuthors",
+            "ReusableRelation"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/6d4f06528f/production.jpg",
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Production",
+      "component_group_uuid": "a239c34b-c2f4-44a1-a54b-8cdfa570ae3d",
+      "color": "#395ece",
+      "icon": null,
+      "component_group_name": "App Pages"
+    },
+    {
+      "name": "ProductionSwiper",
+      "display_name": null,
+      "created_at": "2023-03-07T03:19:52.071Z",
+      "updated_at": "2023-03-07T03:21:45.573Z",
+      "id": 3537032,
+      "schema": {
+        "link": {
+          "type": "multilink",
+          "required": true,
+          "restrict_content_types": true,
+          "component_whitelist": [
+            "Production"
+          ],
+          "force_link_scope": true,
+          "link_scope": "{0}/m"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/c5964f36c9/screenshot-2023-03-06-at-22-21-15.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{link.cached_url}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ProductionSwiper",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "PromoPoster",
+      "display_name": null,
+      "created_at": "2022-07-04T15:19:13.435Z",
+      "updated_at": "2022-09-02T13:44:38.088Z",
+      "id": 2641056,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "text": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "italic",
+            "bold",
+            "strike",
+            "underline",
+            "list",
+            "olist",
+            "link",
+            "image"
+          ],
+          "pos": 1
+        },
+        "cta": {
+          "type": "bloks",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "CtaBlockButton"
+          ],
+          "pos": 2
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3
+        },
+        "video": {
+          "type": "custom",
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "pos": 4
+        },
+        "imageFloats": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "value": "left",
+              "name": "Left"
+            },
+            {
+              "value": "right",
+              "name": "Right"
+            }
+          ],
+          "required": true,
+          "pos": 5
+        },
+        "variant": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "name": "Landscape",
+              "value": "landscape"
+            },
+            {
+              "value": "portrait",
+              "name": "Portrait"
+            }
+          ],
+          "exclude_empty_option": true,
+          "required": true,
+          "pos": 6
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "PromoPoster",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": "#2db47d",
+      "icon": "block-image",
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Reel",
+      "display_name": null,
+      "created_at": "2023-03-10T16:09:47.979Z",
+      "updated_at": "2023-04-28T07:36:08.966Z",
+      "id": 3560074,
+      "schema": {
+        "title": {
+          "type": "text",
+          "display_name": "",
+          "pos": 0
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 1
+        },
+        "length": {
+          "type": "text",
+          "pos": 2
+        },
+        "video": {
+          "type": "custom",
+          "required": true,
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "pos": 3
+        },
+        "link_label": {
+          "type": "text",
+          "pos": 4
+        },
+        "link": {
+          "type": "multilink",
+          "link_scope": "{0}/m/"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/02b2b54421/screenshot-2023-03-10-at-18-56-35.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{title}} \n{{link.cached_url}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Reel",
+      "component_group_uuid": "df28ccfd-83c3-46ec-ab3d-3bf2792dfda6",
+      "color": "#1b243f",
+      "icon": "block-center-m",
+      "component_group_name": "V2 Subcomponents"
+    },
+    {
+      "name": "ResponsivePoster",
+      "display_name": null,
+      "created_at": "2023-03-10T19:27:32.702Z",
+      "updated_at": "2023-03-10T19:41:58.322Z",
+      "id": 3561109,
+      "schema": {
+        "internal_title": {
+          "type": "text",
+          "pos": 0
+        },
+        "media_desktop": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 217749,
+          "pos": 2
+        },
+        "media_tablet": {
+          "type": "asset",
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 217749,
+          "pos": 3
+        },
+        "media_mobile": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 217749,
+          "required": true,
+          "pos": 4
+        },
+        "link": {
+          "type": "multilink",
+          "pos": 5
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/b886410d98/screenshot-2023-03-10-at-20-27-46.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ResponsivePoster",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-image",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "reusable",
+      "display_name": null,
+      "created_at": "2023-04-25T07:51:00.409Z",
+      "updated_at": "2023-04-25T08:18:01.582Z",
+      "id": 3877655,
+      "schema": {
+        "blocks": {
+          "type": "bloks",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a"
+          ],
+          "key": "reusables",
+          "pos": 1
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "reusable",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "ReusableRelation",
+      "display_name": null,
+      "created_at": "2023-05-04T07:15:57.599Z",
+      "updated_at": "2023-05-04T07:43:23.885Z",
+      "id": 3923637,
+      "schema": {
+        "reusable": {
+          "type": "multilink",
+          "use_uuid": true,
+          "source": "internal_stories",
+          "folder_slug": "{0}/reusable-components",
+          "filter_content_type": [
+            "reusable"
+          ],
+          "required": true,
+          "link_scope": "{0}/reusable-components"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{ reusable.cached_url }}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "ReusableRelation",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-arrow-pointer",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "SeasonContents",
+      "display_name": null,
+      "created_at": "2022-07-07T14:34:10.476Z",
+      "updated_at": "2022-07-07T14:53:08.393Z",
+      "id": 2657002,
+      "schema": {
+        "season": {
+          "type": "custom",
+          "field_type": "web-mesterlaere-season-blok-picker",
+          "options": [],
+          "required": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SeasonContents",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Signup",
+      "display_name": null,
+      "created_at": "2022-07-06T10:33:46.501Z",
+      "updated_at": "2022-11-03T17:02:44.629Z",
+      "id": 2649738,
+      "schema": {
+        "subscription_store": {
+          "type": "option",
+          "pos": 0,
+          "required": true,
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "eb67852d-8d9c-4cba-badd-cbdd38e8409b",
+              "name": "Stripe",
+              "value": "stripe"
+            },
+            {
+              "_uid": "0b319881-c9fa-46d6-8d9b-48c804b9d1e7",
+              "value": "reepay",
+              "name": "Reepay"
+            }
+          ],
+          "exclude_empty_option": true,
+          "default_value": "stripe",
+          "description": "ONLY USE STRIPE FOR NOW!"
+        },
+        "first": {
+          "type": "text",
+          "pos": 1,
+          "required": true
+        },
+        "last": {
+          "type": "text",
+          "pos": 2,
+          "required": true
+        },
+        "email": {
+          "type": "text",
+          "required": true,
+          "pos": 3
+        },
+        "email_invalid": {
+          "type": "text",
+          "required": true,
+          "pos": 4
+        },
+        "password": {
+          "type": "text",
+          "required": true,
+          "pos": 5
+        },
+        "password_invalid": {
+          "type": "text",
+          "required": true,
+          "pos": 6
+        },
+        "repeat_password": {
+          "type": "text",
+          "required": true,
+          "pos": 7
+        },
+        "repeat_password_invalid": {
+          "type": "text",
+          "required": true,
+          "pos": 8
+        },
+        "coupon": {
+          "type": "text",
+          "pos": 9,
+          "required": true
+        },
+        "newsletter_signup": {
+          "type": "text",
+          "required": true,
+          "pos": 10
+        },
+        "user_exists": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "paragraph",
+            "h1",
+            "list",
+            "olist",
+            "link"
+          ],
+          "required": true,
+          "pos": 11
+        },
+        "coupon_codes_not_valid": {
+          "type": "richtext",
+          "pos": 12,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link",
+            "paragraph",
+            "h1"
+          ]
+        },
+        "terms": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "link"
+          ],
+          "required": true,
+          "pos": 13
+        },
+        "button_label": {
+          "type": "text",
+          "required": true,
+          "pos": 14
+        },
+        "cancel_label": {
+          "type": "text",
+          "pos": 15
+        },
+        "success_destination": {
+          "type": "multilink",
+          "required": true,
+          "pos": 16
+        },
+        "cancel_destination": {
+          "type": "multilink",
+          "required": true,
+          "pos": 17
+        },
+        "title": {
+          "type": "richtext",
+          "pos": 18,
+          "required": true,
+          "customize_toolbar": true,
+          "toolbar": [
+            "h1"
+          ]
+        },
+        "intro": {
+          "type": "textarea",
+          "pos": 19,
+          "required": true
+        },
+        "products": {
+          "type": "bloks",
+          "maximum": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SignupProduct"
+          ],
+          "pos": 20
+        },
+        "tab-48f04ba9-3600-430c-bba5-239ad4f068ad": {
+          "type": "tab",
+          "display_name": "Signup form",
+          "keys": [
+            "name",
+            "email",
+            "email_invalid",
+            "password",
+            "password_invalid",
+            "repeat_password",
+            "repeat_password_invalid",
+            "newsletter_signup",
+            "user_exists",
+            "terms",
+            "button_label",
+            "cancel_button_label",
+            "cancel_label",
+            "success_url",
+            "success_destination",
+            "cancel_destination",
+            "first",
+            "last",
+            "subscription_store",
+            "coupon",
+            "coupon_codes_not_valid"
+          ],
+          "pos": 21
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{intro}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Signup",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "SignupProduct",
+      "display_name": null,
+      "created_at": "2022-07-06T10:34:56.870Z",
+      "updated_at": "2023-03-23T13:10:26.974Z",
+      "id": 2649740,
+      "schema": {
+        "stripe_price_id": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "description": "Be careful with this. Has to be a real priceId from a real subscription product",
+          "display_name": "Stripe Price ID (OBSOLETE NOT IN USE)"
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        },
+        "text": {
+          "type": "richtext",
+          "pos": 2,
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "list",
+            "olist",
+            "link"
+          ]
+        },
+        "cta_label": {
+          "type": "text",
+          "pos": 3
+        },
+        "ribbon": {
+          "type": "bloks",
+          "maximum": "1",
+          "restrict_components": true,
+          "component_whitelist": [
+            "SignupProductRibbon"
+          ],
+          "pos": 4
+        },
+        "stripe_price_id_test": {
+          "type": "text",
+          "pos": 5,
+          "required": true,
+          "display_name": "Stripe Price ID Test (OBSOLETE NOT IN USE)"
+        },
+        "tab-dd691d79-4a8d-479f-845a-b94478ec815b": {
+          "display_name": "Purchase Spec.",
+          "keys": [
+            "trial_period_override_code",
+            "stripe_price_id",
+            "coupon_codes"
+          ],
+          "pos": 6,
+          "type": "tab"
+        },
+        "tab-93243f45-74c3-49b2-a792-1076b23467fd": {
+          "type": "tab",
+          "display_name": "Test",
+          "keys": [
+            "stripe_price_id_test"
+          ],
+          "pos": 7
+        },
+        "trial_period_override_code": {
+          "type": "option",
+          "use_uuid": true,
+          "exclude_empty_option": true,
+          "options": [
+            {
+              "value": "D0Mda9v4f2eFadf0Qe4580r",
+              "name": "0 days"
+            },
+            {
+              "value": "D7rwHEwS3dSfcnrNwJEx2sM",
+              "name": "7 days"
+            },
+            {
+              "value": "D14cnrNwJEx2sMrwHEwS3dS",
+              "name": "14 days"
+            },
+            {
+              "value": "D30RCJeW9FwhXEuCTg9Obty",
+              "name": "30 days"
+            }
+          ],
+          "required": false,
+          "display_name": "Trial Period Override (OBSOLETE NOT IN USE)",
+          "pos": 8
+        },
+        "coupon_codes": {
+          "type": "text",
+          "description": "a single coupon code to automatically be added to the checkout. If user inputs their own code on form, they will both be attached to checkout",
+          "regex": "",
+          "display_name": "Coupon code  (OBSOLETE NOT IN USE)"
+        },
+        "behaviour": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "921db6e8-42ca-4786-9101-5b6a026d6cb0",
+              "name": "Convert in web app with same headline",
+              "value": "takeTitleToWebApp"
+            },
+            {
+              "_uid": "8b2b5daa-18b7-4856-8218-f41df15d3672",
+              "value": "takeTitleToWebApp",
+              "name": "Convert in website form  (OBSOLETE NOT IN USE)"
+            }
+          ],
+          "exclude_empty_option": true,
+          "required": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SignupProduct",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "SignupProductRibbon",
+      "display_name": null,
+      "created_at": "2022-07-06T10:36:14.167Z",
+      "updated_at": "2022-07-06T10:53:16.509Z",
+      "id": 2649745,
+      "schema": {
+        "subtitle": {
+          "type": "text",
+          "pos": 0
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{subtitle}} - {{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SignupProductRibbon",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "SocialMediaLink",
+      "display_name": null,
+      "created_at": "2022-07-08T14:36:21.470Z",
+      "updated_at": "2022-07-08T14:37:03.876Z",
+      "id": 2661534,
+      "schema": {
+        "social_medium_name": {
+          "type": "text"
+        },
+        "profile_link": {
+          "type": "multilink",
+          "required": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SocialMediaLink",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "SwiperCards",
+      "display_name": null,
+      "created_at": "2023-03-10T17:02:16.754Z",
+      "updated_at": "2023-03-10T17:11:38.896Z",
+      "id": 3560506,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "more_label": {
+          "type": "text"
+        },
+        "more_link": {
+          "type": "multilink"
+        },
+        "cards": {
+          "type": "bloks",
+          "minimum": 1,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Card"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/b649b537ab/screenshot-2023-03-10-at-18-10-01.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SwiperCards",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "SwiperReels",
+      "display_name": null,
+      "created_at": "2023-03-10T15:59:17.066Z",
+      "updated_at": "2023-03-10T16:15:14.453Z",
+      "id": 3560052,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "reels": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Reel"
+          ],
+          "minimum": 1,
+          "pos": 1
+        },
+        "more_label": {
+          "type": "text",
+          "pos": 2
+        },
+        "more_link": {
+          "type": "multilink",
+          "pos": 3
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/014de7045a/screenshot-2023-03-10-at-17-13-31.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SwiperReels",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "SwiperSingleItems",
+      "display_name": null,
+      "created_at": "2023-03-01T23:20:56.263Z",
+      "updated_at": "2023-04-17T13:54:08.473Z",
+      "id": 3511572,
+      "schema": {
+        "access": {
+          "type": "custom",
+          "pos": 0,
+          "field_type": "mesterlaere-access-picker",
+          "options": [],
+          "required": true
+        },
+        "internal_name": {
+          "type": "text",
+          "pos": 1
+        },
+        "items": {
+          "type": "bloks",
+          "required": true,
+          "minimum": 1,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "PlayableLinkPoster"
+          ],
+          "pos": 2
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{access.selected}} - {{internal_name}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "SwiperSingleItems",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#395ece",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "tag",
+      "display_name": null,
+      "created_at": "2023-03-07T03:37:54.676Z",
+      "updated_at": "2023-03-07T03:38:51.371Z",
+      "id": 3537037,
+      "schema": {
+        "name": {
+          "type": "text",
+          "description": "tag name in lowercase",
+          "required": true,
+          "pos": 0
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 1,
+          "required": false
+        },
+        "hide_in_app": {
+          "type": "boolean",
+          "pos": 2
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "tag",
+      "component_group_uuid": "b196aec7-d51d-4a6c-adad-4acb6e5cab71",
+      "color": "#fbce41",
+      "icon": "block-@",
+      "component_group_name": "Globals"
+    },
+    {
+      "name": "Testimonial",
+      "display_name": null,
+      "created_at": "2022-07-04T15:48:20.122Z",
+      "updated_at": "2022-07-04T15:48:36.677Z",
+      "id": 2641119,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "text": {
+          "type": "textarea"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Testimonial",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "Testimonials",
+      "display_name": null,
+      "created_at": "2022-07-04T15:47:54.012Z",
+      "updated_at": "2022-07-04T15:49:00.216Z",
+      "id": 2641118,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "testimonials": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Testimonial"
+          ],
+          "pos": 1
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Testimonials",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "Text",
+      "display_name": null,
+      "created_at": "2022-07-08T07:40:05.787Z",
+      "updated_at": "2022-11-20T14:48:08.524Z",
+      "id": 2659795,
+      "schema": {
+        "heading": {
+          "type": "text"
+        },
+        "text": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "underline",
+            "strike",
+            "inlinecode",
+            "code",
+            "paragraph",
+            "h3",
+            "h4",
+            "h5",
+            "list",
+            "olist",
+            "quote",
+            "hrule",
+            "link",
+            "image",
+            "blok",
+            "paste"
+          ],
+          "style_options": [
+            {
+              "value": "ml-text-small",
+              "name": "Small text"
+            },
+            {
+              "value": "ml-text-micro",
+              "name": "Micro text"
+            },
+            {
+              "value": "ml-text-brand",
+              "name": "Brand text"
+            },
+            {
+              "value": "ml-faded-text",
+              "name": "Faded text"
+            }
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{heading}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Text",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "TextAndMedia",
+      "display_name": null,
+      "created_at": "2022-09-05T06:24:33.704Z",
+      "updated_at": "2022-09-05T09:33:07.197Z",
+      "id": 2876805,
+      "schema": {
+        "mediaFloats": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "value": "left",
+              "name": "Left"
+            },
+            {
+              "value": "right",
+              "name": "Right"
+            }
+          ],
+          "required": true,
+          "pos": 0,
+          "key": "mediaFloats"
+        },
+        "video": {
+          "type": "custom",
+          "field_type": "mesterlaere-video-selector",
+          "options": [],
+          "pos": 1,
+          "key": "video",
+          "description": "Leave blank, to use image instead"
+        },
+        "video_aspect_ratio_adjustment": {
+          "type": "number",
+          "pos": 2,
+          "required": true,
+          "default_value": "37.25",
+          "min_value": 0,
+          "max_value": 100,
+          "decimals": 2
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "pos": 3,
+          "key": "image",
+          "description": "Only used, when there is no video"
+        },
+        "title": {
+          "type": "text",
+          "pos": 4,
+          "key": "title"
+        },
+        "text": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "italic",
+            "bold",
+            "strike",
+            "underline",
+            "list",
+            "olist",
+            "link",
+            "image"
+          ],
+          "pos": 5,
+          "key": "text"
+        },
+        "cta": {
+          "type": "bloks",
+          "restrict_components": true,
+          "restrict_type": "",
+          "component_whitelist": [
+            "CtaBlockButton"
+          ],
+          "pos": 6,
+          "key": "cta"
+        },
+        "tab-7ae0dad3-1dcd-4b45-b694-946a47b77624": {
+          "display_name": "Media",
+          "keys": [
+            "video",
+            "image",
+            "imageFloats",
+            "mediaFloats",
+            "aspect_ratio_adjustment",
+            "video_aspect_ratio_adjustment"
+          ],
+          "pos": 7,
+          "type": "tab",
+          "key": "tab-7ae0dad3-1dcd-4b45-b694-946a47b77624"
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/8b33f0a1fb/frame-1.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": "{{title}}",
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TextAndMedia",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": "#ffac00",
+      "icon": "block-table",
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "TextBlock",
+      "display_name": null,
+      "created_at": "2023-03-10T17:43:17.417Z",
+      "updated_at": "2023-05-03T14:36:16.255Z",
+      "id": 3560715,
+      "schema": {
+        "content": {
+          "type": "richtext",
+          "customize_toolbar": true,
+          "toolbar": [
+            "bold",
+            "italic",
+            "strike",
+            "underline",
+            "inlinecode",
+            "code",
+            "paragraph",
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "list",
+            "olist",
+            "hrule",
+            "link",
+            "image",
+            "paste",
+            "redo",
+            "undo",
+            "paste-action",
+            "highlight",
+            "emoji",
+            "cut",
+            "copy"
+          ],
+          "style_options": [
+            {
+              "_uid": "02d6524c-0a05-4251-b637-53a819e0e384",
+              "name": "Text Center",
+              "value": "text-center block"
+            },
+            {
+              "_uid": "d019e6ad-a42f-4292-bf30-1ddf74b01942",
+              "value": "text-justify block",
+              "name": "Text Justify"
+            },
+            {
+              "_uid": "7b80fe54-7ff5-4fb7-b9ac-503270853c66",
+              "value": "font-serif",
+              "name": "Font Serif"
+            },
+            {
+              "_uid": "59c39551-21a7-4c8b-a03d-3fe859268e91",
+              "value": "font-serif text-center block",
+              "name": "Font Serif + Text Center"
+            }
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/f343a74c4c/screenshot-2023-03-10-at-18-44-45.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TextBlock",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": "block-text-img-r",
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "TileLink",
+      "display_name": null,
+      "created_at": "2022-07-01T07:26:06.622Z",
+      "updated_at": "2022-07-01T07:28:14.901Z",
+      "id": 2628112,
+      "schema": {
+        "media": {
+          "type": "asset",
+          "pos": 0,
+          "filetypes": [
+            "images"
+          ]
+        },
+        "title": {
+          "type": "text",
+          "pos": 1
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 2
+        },
+        "link": {
+          "type": "multilink",
+          "required": false,
+          "pos": 3
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TileLink",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "TileLinks",
+      "display_name": null,
+      "created_at": "2022-07-01T07:24:52.437Z",
+      "updated_at": "2022-07-04T14:01:30.552Z",
+      "id": 2628110,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "max_length": ""
+        },
+        "blocks": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "TileLink"
+          ],
+          "pos": 1,
+          "maximum": "3"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TileLinks",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "TitleAndSubtitlePoster",
+      "display_name": null,
+      "created_at": "2023-03-07T04:12:16.765Z",
+      "updated_at": "2023-03-07T04:14:52.068Z",
+      "id": 3537099,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "image": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/334bad6319/screenshot-2023-03-06-at-23-13-42.png",
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TitleAndSubtitlePoster",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "TopList",
+      "display_name": null,
+      "created_at": "2023-03-10T15:07:06.508Z",
+      "updated_at": "2023-05-03T13:44:22.241Z",
+      "id": 3559841,
+      "schema": {
+        "title": {
+          "type": "text"
+        },
+        "all_label": {
+          "type": "text"
+        },
+        "all_link": {
+          "type": "multilink",
+          "link_scope": "{0}/"
+        },
+        "list_items": {
+          "type": "bloks",
+          "required": true,
+          "minimum": 1,
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "TopListItem"
+          ]
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/fe49cffdb3/screenshot-2023-03-10-at-16-06-09.png",
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TopList",
+      "component_group_uuid": "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a",
+      "color": "#1b243f",
+      "icon": null,
+      "component_group_name": "V2 Page Components"
+    },
+    {
+      "name": "TopListItem",
+      "display_name": null,
+      "created_at": "2023-03-10T15:13:11.960Z",
+      "updated_at": "2023-04-28T07:32:27.956Z",
+      "id": 3559914,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "is_new": {
+          "type": "boolean",
+          "pos": 1
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 2
+        },
+        "cuff": {
+          "type": "textarea",
+          "pos": 3
+        },
+        "image": {
+          "type": "asset",
+          "pos": 4,
+          "required": true,
+          "filetypes": [
+            "images"
+          ],
+          "asset_folder_id": 215737
+        },
+        "link": {
+          "type": "multilink",
+          "link_scope": "{0}/m/",
+          "pos": 5
+        }
+      },
+      "image": "//a.storyblok.com/f/164309/x/112f4749ed/screenshot-2023-03-10-at-18-55-24.png",
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "TopListItem",
+      "component_group_uuid": "df28ccfd-83c3-46ec-ab3d-3bf2792dfda6",
+      "color": "#1b243f",
+      "icon": "block-monitor",
+      "component_group_name": "V2 Subcomponents"
+    },
+    {
+      "name": "Usp",
+      "display_name": null,
+      "created_at": "2022-06-30T07:25:09.876Z",
+      "updated_at": "2022-07-11T09:35:26.963Z",
+      "id": 2622526,
+      "schema": {
+        "icon": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ],
+          "required": false
+        },
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "link": {
+          "type": "multilink",
+          "show_anchor": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Usp",
+      "component_group_uuid": "61ca52b3-6079-4646-ab7b-4e0fdad92bca",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Subcomponents"
+    },
+    {
+      "name": "Usps",
+      "display_name": null,
+      "created_at": "2022-06-30T07:24:28.597Z",
+      "updated_at": "2022-07-19T09:11:00.724Z",
+      "id": 2622525,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        },
+        "subtitle": {
+          "type": "text",
+          "pos": 1
+        },
+        "usps": {
+          "type": "bloks",
+          "restrict_components": true,
+          "component_whitelist": [
+            "Usp"
+          ],
+          "pos": 2
+        },
+        "variant": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "value": "DEFAULT",
+              "name": "Default"
+            },
+            {
+              "value": "MOBILE_SLIDER",
+              "name": "Mobile slider"
+            },
+            {
+              "value": "GRID",
+              "name": "Grid"
+            }
+          ],
+          "default_value": "DEFAULT",
+          "required": true,
+          "exclude_empty_option": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Usps",
+      "component_group_uuid": "630701a8-3bab-4c0a-b10a-63c9096bd059",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Page Components"
+    },
+    {
+      "name": "V2Page",
+      "display_name": null,
+      "created_at": "2023-03-07T03:02:23.115Z",
+      "updated_at": "2023-03-07T03:02:51.885Z",
+      "id": 3536986,
+      "schema": {
+        "blocks": {
+          "type": "bloks",
+          "restrict_type": "groups",
+          "restrict_components": true,
+          "component_whitelist": [],
+          "component_group_whitelist": [
+            "3f11581e-2a6b-4c7b-a818-1b0e82afcc8a"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "V2Page",
+      "component_group_uuid": "1df27a73-b24b-48c0-b33e-218df282a03e",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Pages"
+    }
+  ]
+}

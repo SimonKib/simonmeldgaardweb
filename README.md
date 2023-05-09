@@ -1,8 +1,6 @@
-# SebbeJohansson Front
+# simonmeldgaard.dk
 
-Uses [nuxt3](https://v3.nuxtjs.org) and [storyblok](https://www.storyblok.com/).
-
-Now static with prerender using [nuxt-full-static](https://github.com/danielroe/nuxt-full-static/) from [@danielroe](https://github.com/danielroe).
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
@@ -16,29 +14,5 @@ yarn install
 npm install
 
 # pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.

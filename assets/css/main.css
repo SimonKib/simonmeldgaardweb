@@ -1,0 +1,115 @@
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 200;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-ExtraLight.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 300;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 400;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 500;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 600;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 700;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: PlusJakartaSans;
+  font-weight: 800;
+  src: local('PlusJakartaSans'),
+    url('~/assets/fonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: ITCLubalinGraphStd;
+  font-weight: 500;
+  src: local('ITCLubalinGraphStdMedium'),
+    url('~/assets/fonts/ITCLubalinGraphStdMedium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: ITCLubalinGraphStdDemi;
+  font-weight: 700;
+  src: local('ITCLubalinGraphStdDemi'),
+    url('~/assets/fonts/ITCLubalinGraphStdDemi.otf') format('opentype');
+}
+
+html {
+  @apply text-white;
+}
+
+body {
+  @apply font-sans leading-base h-screen overflow-x-hidden w-screen;
+}
+
+a {
+  @apply cursor-pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:enabled,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:enabled,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:enabled,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #0a0a0a inset;
+  box-shadow: 0 0 0px 1000px #0a0a0a inset;
+  background-color: #0a0a0a;
+}
+
+:where(body) {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.n-modal-mask {
+  @apply bg-black;
+}
+
+/* Apparently tailwind forgot this ?
+https://tailwindcss.com/docs/text-align
+*/
+.text-justify {
+  text-align: justify;
+}
